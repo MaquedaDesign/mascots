@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+studio/tests/shots/
+studio/tools/clean_all.png
+.DS_Store

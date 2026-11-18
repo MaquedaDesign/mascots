@@ -1,0 +1,1477 @@
+{
+ "units": "px de la hoja original (escala 1)",
+ "drawOrder": "z mayor = delante; layer f = delante del panel, b = detrás",
+ "parents": {
+  "body": null,
+  "legF": null,
+  "legB": null,
+  "head": "body",
+  "armF": "body",
+  "armB": "body",
+  "tail": "body"
+ },
+ "characters": {
+  "verde": {
+   "name": "Viva",
+   "species": "Camaleón",
+   "color": "#9bd84a",
+   "parts": {
+    "tail": {
+     "file": "verde_tail.png",
+     "w": 142,
+     "h": 153,
+     "pivot": [
+      12,
+      135
+     ]
+    },
+    "legB": {
+     "file": "verde_leg_R.png",
+     "w": 99,
+     "h": 88,
+     "pivot": [
+      42,
+      8
+     ]
+    },
+    "legF": {
+     "file": "verde_leg_L.png",
+     "w": 98,
+     "h": 90,
+     "pivot": [
+      54,
+      8
+     ]
+    },
+    "armB": {
+     "file": "verde_arm_R.png",
+     "w": 84,
+     "h": 87,
+     "pivot": [
+      22,
+      10
+     ]
+    },
+    "armF": {
+     "file": "verde_arm_L.png",
+     "w": 82,
+     "h": 87,
+     "pivot": [
+      60,
+      10
+     ]
+    },
+    "head": {
+     "file": "verde_head_clean.png",
+     "w": 266,
+     "h": 221,
+     "pivot": [
+      140,
+      200
+     ]
+    },
+    "body": {
+     "file": "verde_body.png",
+     "w": 211,
+     "h": 194,
+     "pivot": [
+      105.5,
+      97
+     ]
+    }
+   },
+   "headWithFace": "verde_head.png",
+   "poses": {
+    "stand": {
+     "tail": {
+      "x": 63.3,
+      "y": 50.4,
+      "rot": 0,
+      "layer": "f",
+      "z": 1
+     },
+     "legB": {
+      "x": 40.1,
+      "y": -80,
+      "rot": 0,
+      "layer": "f",
+      "z": 2
+     },
+     "body": {
+      "x": 0,
+      "y": -138.4,
+      "rot": 0,
+      "layer": "f",
+      "z": 3
+     },
+     "legF": {
+      "x": -40.1,
+      "y": -82,
+      "rot": 0,
+      "layer": "f",
+      "z": 4
+     },
+     "armB": {
+      "x": 25.3,
+      "y": -19.4,
+      "rot": 0,
+      "layer": "f",
+      "z": 5
+     },
+     "head": {
+      "x": -17,
+      "y": -73,
+      "rot": 0,
+      "layer": "f",
+      "z": 6
+     },
+     "armF": {
+      "x": -69.6,
+      "y": -23.3,
+      "rot": 0,
+      "layer": "f",
+      "z": 8
+     }
+    },
+    "hang": {
+     "tail": {
+      "x": 63.3,
+      "y": -38.3,
+      "rot": -32,
+      "layer": "b",
+      "z": 1
+     },
+     "legB": {
+      "x": 40.1,
+      "y": 206,
+      "rot": -10,
+      "layer": "b",
+      "z": 2
+     },
+     "body": {
+      "x": 0,
+      "y": 81,
+      "rot": 0,
+      "layer": "b",
+      "z": 3
+     },
+     "legF": {
+      "x": -40.1,
+      "y": 206,
+      "rot": 10,
+      "layer": "b",
+      "z": 4
+     },
+     "armB": {
+      "x": 31.6,
+      "y": -89,
+      "rot": -8,
+      "layer": "f",
+      "z": 8
+     },
+     "head": {
+      "x": -17,
+      "y": -73,
+      "rot": 0,
+      "layer": "f",
+      "z": 6
+     },
+     "armF": {
+      "x": -57,
+      "y": -89,
+      "rot": 8,
+      "layer": "f",
+      "z": 8
+     }
+    },
+    "sleep": {
+     "tail": {
+      "x": 35.9,
+      "y": 77.6,
+      "rot": 72,
+      "layer": "b",
+      "z": 1
+     },
+     "legB": {
+      "x": 155.2,
+      "y": 2,
+      "rot": -75,
+      "layer": "b",
+      "z": 2
+     },
+     "body": {
+      "x": 58.2,
+      "y": -44.3,
+      "rot": -90,
+      "layer": "b",
+      "z": 3
+     },
+     "legF": {
+      "x": 116.4,
+      "y": 2,
+      "rot": -75,
+      "layer": "b",
+      "z": 4
+     },
+     "armB": {
+      "x": -42.3,
+      "y": -32.9,
+      "rot": 82,
+      "layer": "f",
+      "z": 8
+     },
+     "head": {
+      "x": -42.3,
+      "y": -79.3,
+      "rot": 77,
+      "layer": "f",
+      "z": 6
+     },
+     "armF": {
+      "x": -42.3,
+      "y": -117.3,
+      "rot": 102,
+      "layer": "f",
+      "z": 8
+     }
+    },
+    "peek": {
+     "tail": {
+      "x": 73.9,
+      "y": 20,
+      "rot": 0,
+      "layer": "b",
+      "z": 1
+     },
+     "legB": {
+      "x": 189.9,
+      "y": 260,
+      "rot": 0,
+      "layer": "b",
+      "z": 2
+     },
+     "body": {
+      "x": 158.3,
+      "y": 150,
+      "rot": 0,
+      "layer": "b",
+      "z": 3
+     },
+     "legF": {
+      "x": 126.6,
+      "y": 260,
+      "rot": 0,
+      "layer": "b",
+      "z": 4
+     },
+     "armB": {
+      "x": -96.3,
+      "y": -104,
+      "rot": 82,
+      "layer": "f",
+      "z": 8
+     },
+     "head": {
+      "x": -204.4,
+      "y": -110,
+      "rot": -7,
+      "layer": "b",
+      "z": 6
+     },
+     "armF": {
+      "x": -100.3,
+      "y": -162,
+      "rot": 76,
+      "layer": "f",
+      "z": 8
+     }
+    }
+   },
+   "face": {
+    "artAngle": 50,
+    "radius": 100,
+    "features": [
+     {
+      "type": "eye",
+      "x": 119,
+      "y": 129,
+      "rx": 33,
+      "ry": 40,
+      "azimuth": -45,
+      "centerX": 127.7,
+      "rot": null
+     },
+     {
+      "type": "eye",
+      "x": NaN,
+      "y": 129,
+      "rx": 33,
+      "ry": 40,
+      "azimuth": 45,
+      "centerX": 127.7,
+      "rot": null
+     },
+     {
+      "type": "mouth",
+      "x": 38,
+      "y": 160,
+      "rx": null,
+      "ry": null,
+      "azimuth": 0,
+      "centerX": 114.6,
+      "rot": -3
+     }
+    ],
+    "eye": {
+     "style": "iris",
+     "sclera": "#f7f3c6",
+     "iris": "#2e5236",
+     "irisDx": 0.17
+    },
+    "mouth": {
+     "x": 38,
+     "y": 160,
+     "w": 40,
+     "rot": -3,
+     "kind": "smile"
+    },
+    "ink": "#2c4a30",
+    "skin": "#c5ef67"
+   },
+   "personality": {
+    "speed": 200,
+    "jumpV": 1000,
+    "bounce": 1,
+    "walkFreq": 1.25,
+    "breath": 1.8,
+    "tail": 1.2,
+    "idle": [
+     0.5,
+     1.8
+    ],
+    "w": {
+     "walk": 4,
+     "hop": 2,
+     "jumpPanel": 2.2,
+     "hang": 1.5,
+     "approach": 1.6,
+     "idle": 1,
+     "jumpFloor": 1.6,
+     "sleep": 0.3,
+     "peek": 0.4
+    },
+    "hold": {
+     "hang": [
+      3,
+      6
+     ],
+     "sleep": [
+      4,
+      7
+     ],
+     "peek": [
+      2,
+      4
+     ]
+    },
+    "cursor": "curious",
+    "dragExpr": "alegre"
+   }
+  },
+  "azul": {
+   "name": "Tranquila",
+   "species": "Pez",
+   "color": "#4f9be8",
+   "parts": {
+    "tail": {
+     "file": "azul_tail.png",
+     "w": 195,
+     "h": 150,
+     "pivot": [
+      8,
+      70
+     ]
+    },
+    "legB": {
+     "file": "azul_leg_R.png",
+     "w": 90,
+     "h": 85,
+     "pivot": [
+      39,
+      8
+     ]
+    },
+    "legF": {
+     "file": "azul_leg_L.png",
+     "w": 89,
+     "h": 86,
+     "pivot": [
+      45,
+      8
+     ]
+    },
+    "armB": {
+     "file": "azul_arm_R.png",
+     "w": 73,
+     "h": 87,
+     "pivot": [
+      23,
+      10
+     ]
+    },
+    "armF": {
+     "file": "azul_arm_L.png",
+     "w": 72,
+     "h": 87,
+     "pivot": [
+      48,
+      10
+     ]
+    },
+    "head": {
+     "file": "azul_head_clean.png",
+     "w": 268,
+     "h": 227,
+     "pivot": [
+      112,
+      207
+     ]
+    },
+    "body": {
+     "file": "azul_body.png",
+     "w": 218,
+     "h": 193,
+     "pivot": [
+      109,
+      96.5
+     ]
+    }
+   },
+   "headWithFace": "azul_head.png",
+   "poses": {
+    "stand": {
+     "tail": {
+      "x": 65.4,
+      "y": 50.2,
+      "rot": 0,
+      "layer": "f",
+      "z": 1
+     },
+     "legB": {
+      "x": 41.4,
+      "y": -77,
+      "rot": 0,
+      "layer": "f",
+      "z": 2
+     },
+     "body": {
+      "x": 0,
+      "y": -136.1,
+      "rot": 0,
+      "layer": "f",
+      "z": 3
+     },
+     "legF": {
+      "x": -41.4,
+      "y": -78,
+      "rot": 0,
+      "layer": "f",
+      "z": 4
+     },
+     "armB": {
+      "x": 26.2,
+      "y": -19.3,
+      "rot": 0,
+      "layer": "f",
+      "z": 5
+     },
+     "head": {
+      "x": -30,
+      "y": -72.5,
+      "rot": 0,
+      "layer": "f",
+      "z": 6
+     },
+     "armF": {
+      "x": -71.9,
+      "y": -23.2,
+      "rot": 0,
+      "layer": "f",
+      "z": 8
+     }
+    },
+    "hang": {
+     "tail": {
+      "x": 65.4,
+      "y": -38,
+      "rot": -32,
+      "layer": "b",
+      "z": 1
+     },
+     "legB": {
+      "x": 41.4,
+      "y": 205,
+      "rot": -10,
+      "layer": "b",
+      "z": 2
+     },
+     "body": {
+      "x": 0,
+      "y": 80.5,
+      "rot": 0,
+      "layer": "b",
+      "z": 3
+     },
+     "legF": {
+      "x": -41.4,
+      "y": 205,
+      "rot": 10,
+      "layer": "b",
+      "z": 4
+     },
+     "armB": {
+      "x": 32.7,
+      "y": -88.5,
+      "rot": -8,
+      "layer": "f",
+      "z": 8
+     },
+     "head": {
+      "x": -30,
+      "y": -72.5,
+      "rot": 0,
+      "layer": "f",
+      "z": 6
+     },
+     "armF": {
+      "x": -58.9,
+      "y": -88.5,
+      "rot": 8,
+      "layer": "f",
+      "z": 8
+     }
+    },
+    "sleep": {
+     "tail": {
+      "x": 37.1,
+      "y": 77.2,
+      "rot": 72,
+      "layer": "b",
+      "z": 1
+     },
+     "legB": {
+      "x": 154.4,
+      "y": 2,
+      "rot": -75,
+      "layer": "b",
+      "z": 2
+     },
+     "body": {
+      "x": 57.9,
+      "y": -45.8,
+      "rot": -90,
+      "layer": "b",
+      "z": 3
+     },
+     "legF": {
+      "x": 115.8,
+      "y": 2,
+      "rot": -75,
+      "layer": "b",
+      "z": 4
+     },
+     "armB": {
+      "x": -43.8,
+      "y": -31.7,
+      "rot": 82,
+      "layer": "f",
+      "z": 8
+     },
+     "head": {
+      "x": -43.8,
+      "y": -79.7,
+      "rot": 77,
+      "layer": "f",
+      "z": 6
+     },
+     "armF": {
+      "x": -43.8,
+      "y": -118.9,
+      "rot": 102,
+      "layer": "f",
+      "z": 8
+     }
+    },
+    "peek": {
+     "tail": {
+      "x": 76.3,
+      "y": 20,
+      "rot": 0,
+      "layer": "b",
+      "z": 1
+     },
+     "legB": {
+      "x": 196.2,
+      "y": 260,
+      "rot": 0,
+      "layer": "b",
+      "z": 2
+     },
+     "body": {
+      "x": 163.5,
+      "y": 150,
+      "rot": 0,
+      "layer": "b",
+      "z": 3
+     },
+     "legF": {
+      "x": 130.8,
+      "y": 260,
+      "rot": 0,
+      "layer": "b",
+      "z": 4
+     },
+     "armB": {
+      "x": -101.5,
+      "y": -104,
+      "rot": 82,
+      "layer": "f",
+      "z": 8
+     },
+     "head": {
+      "x": -239.1,
+      "y": -110,
+      "rot": -7,
+      "layer": "b",
+      "z": 6
+     },
+     "armF": {
+      "x": -105.5,
+      "y": -162,
+      "rot": 76,
+      "layer": "f",
+      "z": 8
+     }
+    }
+   },
+   "face": {
+    "artAngle": 50,
+    "radius": 90,
+    "features": [
+     {
+      "type": "eye",
+      "x": 122,
+      "y": 145,
+      "rx": 30,
+      "ry": 39,
+      "azimuth": -55,
+      "centerX": 114.2,
+      "rot": null
+     },
+     {
+      "type": "eye",
+      "x": NaN,
+      "y": 145,
+      "rx": 30,
+      "ry": 39,
+      "azimuth": 55,
+      "centerX": 114.2,
+      "rot": null
+     },
+     {
+      "type": "mouth",
+      "x": 41,
+      "y": 167,
+      "rx": null,
+      "ry": null,
+      "azimuth": 0,
+      "centerX": 109.9,
+      "rot": 4
+     }
+    ],
+    "eye": {
+     "style": "iris",
+     "sclera": "#ffffff",
+     "iris": "#1f4f9e",
+     "irisDx": -0.17
+    },
+    "mouth": {
+     "x": 41,
+     "y": 167,
+     "w": 34,
+     "rot": 4,
+     "kind": "smile"
+    },
+    "ink": "#1d3f7a",
+    "skin": "#bee9fd"
+   },
+   "personality": {
+    "speed": 80,
+    "jumpV": 780,
+    "bounce": 0.35,
+    "walkFreq": 0.75,
+    "breath": 3.2,
+    "tail": 0.7,
+    "idle": [
+     2,
+     5
+    ],
+    "w": {
+     "idle": 4,
+     "walk": 3,
+     "sleep": 2.2,
+     "jumpPanel": 0.8,
+     "jumpFloor": 0.9,
+     "hang": 0.6,
+     "peek": 0.3
+    },
+    "hold": {
+     "hang": [
+      4,
+      8
+     ],
+     "sleep": [
+      9,
+      16
+     ],
+     "peek": [
+      3,
+      6
+     ]
+    },
+    "cursor": "calm",
+    "dragExpr": "sorprendida",
+    "blinkSlow": true
+   }
+  },
+  "morado": {
+   "name": "Tímida",
+   "species": "Ajolote",
+   "color": "#b77ee0",
+   "parts": {
+    "tail": {
+     "file": "morado_tail.png",
+     "w": 231,
+     "h": 130,
+     "pivot": [
+      8,
+      92
+     ]
+    },
+    "legB": {
+     "file": "morado_leg_R.png",
+     "w": 86,
+     "h": 85,
+     "pivot": [
+      40,
+      8
+     ]
+    },
+    "legF": {
+     "file": "morado_leg_L.png",
+     "w": 88,
+     "h": 83,
+     "pivot": [
+      48,
+      8
+     ]
+    },
+    "armB": {
+     "file": "morado_arm_R.png",
+     "w": 75,
+     "h": 88,
+     "pivot": [
+      20,
+      10
+     ]
+    },
+    "armF": {
+     "file": "morado_arm_L.png",
+     "w": 75,
+     "h": 88,
+     "pivot": [
+      53,
+      10
+     ]
+    },
+    "head": {
+     "file": "morado_head_clean.png",
+     "w": 329,
+     "h": 222,
+     "pivot": [
+      158,
+      202
+     ]
+    },
+    "body": {
+     "file": "morado_body.png",
+     "w": 201,
+     "h": 199,
+     "pivot": [
+      100.5,
+      99.5
+     ]
+    }
+   },
+   "headWithFace": "morado_head.png",
+   "poses": {
+    "stand": {
+     "tail": {
+      "x": 60.3,
+      "y": 51.7,
+      "rot": 0,
+      "layer": "f",
+      "z": 1
+     },
+     "legB": {
+      "x": 38.2,
+      "y": -77,
+      "rot": 0,
+      "layer": "f",
+      "z": 2
+     },
+     "body": {
+      "x": 0,
+      "y": -138.6,
+      "rot": 0,
+      "layer": "f",
+      "z": 3
+     },
+     "legF": {
+      "x": -38.2,
+      "y": -75,
+      "rot": 0,
+      "layer": "f",
+      "z": 4
+     },
+     "armB": {
+      "x": 24.1,
+      "y": -19.9,
+      "rot": 0,
+      "layer": "f",
+      "z": 5
+     },
+     "head": {
+      "x": -8,
+      "y": -75.5,
+      "rot": 0,
+      "layer": "f",
+      "z": 6
+     },
+     "armF": {
+      "x": -66.3,
+      "y": -23.9,
+      "rot": 0,
+      "layer": "f",
+      "z": 8
+     }
+    },
+    "hang": {
+     "tail": {
+      "x": 60.3,
+      "y": -39.7,
+      "rot": -32,
+      "layer": "b",
+      "z": 1
+     },
+     "legB": {
+      "x": 38.2,
+      "y": 211,
+      "rot": -10,
+      "layer": "b",
+      "z": 2
+     },
+     "body": {
+      "x": 0,
+      "y": 83.5,
+      "rot": 0,
+      "layer": "b",
+      "z": 3
+     },
+     "legF": {
+      "x": -38.2,
+      "y": 211,
+      "rot": 10,
+      "layer": "b",
+      "z": 4
+     },
+     "armB": {
+      "x": 30.1,
+      "y": -91.5,
+      "rot": -8,
+      "layer": "f",
+      "z": 8
+     },
+     "head": {
+      "x": -8,
+      "y": -75.5,
+      "rot": 0,
+      "layer": "f",
+      "z": 6
+     },
+     "armF": {
+      "x": -54.3,
+      "y": -91.5,
+      "rot": 8,
+      "layer": "f",
+      "z": 8
+     }
+    },
+    "sleep": {
+     "tail": {
+      "x": 34.2,
+      "y": 79.6,
+      "rot": 72,
+      "layer": "b",
+      "z": 1
+     },
+     "legB": {
+      "x": 159.2,
+      "y": 2,
+      "rot": -75,
+      "layer": "b",
+      "z": 2
+     },
+     "body": {
+      "x": 59.7,
+      "y": -42.2,
+      "rot": -90,
+      "layer": "b",
+      "z": 3
+     },
+     "legF": {
+      "x": 119.4,
+      "y": 2,
+      "rot": -75,
+      "layer": "b",
+      "z": 4
+     },
+     "armB": {
+      "x": -40.2,
+      "y": -35.6,
+      "rot": 82,
+      "layer": "f",
+      "z": 8
+     },
+     "head": {
+      "x": -40.2,
+      "y": -79.8,
+      "rot": 77,
+      "layer": "f",
+      "z": 6
+     },
+     "armF": {
+      "x": -40.2,
+      "y": -116,
+      "rot": 102,
+      "layer": "f",
+      "z": 8
+     }
+    },
+    "peek": {
+     "tail": {
+      "x": 70.4,
+      "y": 20,
+      "rot": 0,
+      "layer": "b",
+      "z": 1
+     },
+     "legB": {
+      "x": 180.9,
+      "y": 260,
+      "rot": 0,
+      "layer": "b",
+      "z": 2
+     },
+     "body": {
+      "x": 150.8,
+      "y": 150,
+      "rot": 0,
+      "layer": "b",
+      "z": 3
+     },
+     "legF": {
+      "x": 120.6,
+      "y": 260,
+      "rot": 0,
+      "layer": "b",
+      "z": 4
+     },
+     "armB": {
+      "x": -88.8,
+      "y": -104,
+      "rot": 82,
+      "layer": "f",
+      "z": 8
+     },
+     "head": {
+      "x": -223,
+      "y": -110,
+      "rot": -7,
+      "layer": "b",
+      "z": 6
+     },
+     "armF": {
+      "x": -92.8,
+      "y": -162,
+      "rot": 76,
+      "layer": "f",
+      "z": 8
+     }
+    }
+   },
+   "face": {
+    "artAngle": 15,
+    "radius": 106,
+    "features": [
+     {
+      "type": "eye",
+      "x": 75,
+      "y": 145,
+      "rx": 17,
+      "ry": 27,
+      "azimuth": 35,
+      "centerX": 156.2,
+      "rot": null
+     },
+     {
+      "type": "eye",
+      "x": 193,
+      "y": 148,
+      "rx": 17.5,
+      "ry": 29,
+      "azimuth": -35,
+      "centerX": 156.7,
+      "rot": null
+     },
+     {
+      "type": "mouth",
+      "x": 130,
+      "y": 172,
+      "rx": null,
+      "ry": null,
+      "azimuth": 0,
+      "centerX": 157.4,
+      "rot": 0
+     }
+    ],
+    "eye": {
+     "style": "dot",
+     "iris": "#6b3580"
+    },
+    "mouth": {
+     "x": 130,
+     "y": 172,
+     "w": 40,
+     "rot": 0,
+     "kind": "cat"
+    },
+    "ink": "#4e2160",
+    "skin": "#f7d7f3"
+   },
+   "personality": {
+    "speed": 140,
+    "jumpV": 860,
+    "bounce": 0.55,
+    "walkFreq": 1.1,
+    "breath": 2.2,
+    "tail": 1,
+    "idle": [
+     1,
+     3
+    ],
+    "w": {
+     "walk": 3,
+     "idle": 2,
+     "peek": 2.6,
+     "hang": 1.6,
+     "jumpPanel": 1,
+     "jumpFloor": 1,
+     "sleep": 0.4
+    },
+    "hold": {
+     "hang": [
+      5,
+      9
+     ],
+     "sleep": [
+      5,
+      8
+     ],
+     "peek": [
+      5,
+      10
+     ]
+    },
+    "cursor": "shy",
+    "dragExpr": "asustada"
+   }
+  },
+  "naranja": {
+   "name": "Valiente",
+   "species": "Dragón",
+   "color": "#f2774a",
+   "parts": {
+    "tail": {
+     "file": "naranja_tail.png",
+     "w": 259,
+     "h": 145,
+     "pivot": [
+      14,
+      105
+     ]
+    },
+    "legB": {
+     "file": "naranja_leg_R.png",
+     "w": 97,
+     "h": 97,
+     "pivot": [
+      40,
+      8
+     ]
+    },
+    "legF": {
+     "file": "naranja_leg_L.png",
+     "w": 101,
+     "h": 99,
+     "pivot": [
+      58,
+      8
+     ]
+    },
+    "armB": {
+     "file": "naranja_arm_R.png",
+     "w": 102,
+     "h": 98,
+     "pivot": [
+      29,
+      12
+     ]
+    },
+    "armF": {
+     "file": "naranja_arm_L.png",
+     "w": 88,
+     "h": 94,
+     "pivot": [
+      62,
+      12
+     ]
+    },
+    "head": {
+     "file": "naranja_head_clean.png",
+     "w": 295,
+     "h": 233,
+     "pivot": [
+      145,
+      214
+     ]
+    },
+    "body": {
+     "file": "naranja_body.png",
+     "w": 226,
+     "h": 197,
+     "pivot": [
+      113,
+      98.5
+     ]
+    }
+   },
+   "headWithFace": "naranja_head.png",
+   "poses": {
+    "stand": {
+     "tail": {
+      "x": 67.8,
+      "y": 51.2,
+      "rot": 0,
+      "layer": "f",
+      "z": 1
+     },
+     "legB": {
+      "x": 42.9,
+      "y": -89,
+      "rot": 0,
+      "layer": "f",
+      "z": 2
+     },
+     "body": {
+      "x": 0,
+      "y": -144,
+      "rot": 0,
+      "layer": "f",
+      "z": 3
+     },
+     "legF": {
+      "x": -42.9,
+      "y": -91,
+      "rot": 0,
+      "layer": "f",
+      "z": 4
+     },
+     "armB": {
+      "x": 27.1,
+      "y": -19.7,
+      "rot": 0,
+      "layer": "f",
+      "z": 5
+     },
+     "head": {
+      "x": -28,
+      "y": -74.5,
+      "rot": 0,
+      "layer": "f",
+      "z": 6
+     },
+     "armF": {
+      "x": -74.6,
+      "y": -23.6,
+      "rot": 0,
+      "layer": "f",
+      "z": 8
+     }
+    },
+    "hang": {
+     "tail": {
+      "x": 67.8,
+      "y": -39.2,
+      "rot": -32,
+      "layer": "b",
+      "z": 1
+     },
+     "legB": {
+      "x": 42.9,
+      "y": 209,
+      "rot": -10,
+      "layer": "b",
+      "z": 2
+     },
+     "body": {
+      "x": 0,
+      "y": 82.5,
+      "rot": 0,
+      "layer": "b",
+      "z": 3
+     },
+     "legF": {
+      "x": -42.9,
+      "y": 209,
+      "rot": 10,
+      "layer": "b",
+      "z": 4
+     },
+     "armB": {
+      "x": 33.9,
+      "y": -90.5,
+      "rot": -8,
+      "layer": "f",
+      "z": 8
+     },
+     "head": {
+      "x": -28,
+      "y": -74.5,
+      "rot": 0,
+      "layer": "f",
+      "z": 6
+     },
+     "armF": {
+      "x": -61,
+      "y": -90.5,
+      "rot": 8,
+      "layer": "f",
+      "z": 8
+     }
+    },
+    "sleep": {
+     "tail": {
+      "x": 38.4,
+      "y": 78.8,
+      "rot": 72,
+      "layer": "b",
+      "z": 1
+     },
+     "legB": {
+      "x": 157.6,
+      "y": 2,
+      "rot": -75,
+      "layer": "b",
+      "z": 2
+     },
+     "body": {
+      "x": 59.1,
+      "y": -47.5,
+      "rot": -90,
+      "layer": "b",
+      "z": 3
+     },
+     "legF": {
+      "x": 118.2,
+      "y": 2,
+      "rot": -75,
+      "layer": "b",
+      "z": 4
+     },
+     "armB": {
+      "x": -45.5,
+      "y": -32,
+      "rot": 82,
+      "layer": "f",
+      "z": 8
+     },
+     "head": {
+      "x": -45.5,
+      "y": -81.7,
+      "rot": 77,
+      "layer": "f",
+      "z": 6
+     },
+     "armF": {
+      "x": -45.5,
+      "y": -122.4,
+      "rot": 102,
+      "layer": "f",
+      "z": 8
+     }
+    },
+    "peek": {
+     "tail": {
+      "x": 79.1,
+      "y": 20,
+      "rot": 0,
+      "layer": "b",
+      "z": 1
+     },
+     "legB": {
+      "x": 203.4,
+      "y": 260,
+      "rot": 0,
+      "layer": "b",
+      "z": 2
+     },
+     "body": {
+      "x": 169.5,
+      "y": 150,
+      "rot": 0,
+      "layer": "b",
+      "z": 3
+     },
+     "legF": {
+      "x": 135.6,
+      "y": 260,
+      "rot": 0,
+      "layer": "b",
+      "z": 4
+     },
+     "armB": {
+      "x": -107.5,
+      "y": -104,
+      "rot": 82,
+      "layer": "f",
+      "z": 8
+     },
+     "head": {
+      "x": -231,
+      "y": -110,
+      "rot": -7,
+      "layer": "b",
+      "z": 6
+     },
+     "armF": {
+      "x": -111.5,
+      "y": -162,
+      "rot": 76,
+      "layer": "f",
+      "z": 8
+     }
+    }
+   },
+   "face": {
+    "artAngle": 55,
+    "radius": 100,
+    "features": [
+     {
+      "type": "eye",
+      "x": 132,
+      "y": 150,
+      "rx": 26,
+      "ry": 35,
+      "azimuth": -50,
+      "centerX": 140.7,
+      "rot": null
+     },
+     {
+      "type": "eye",
+      "x": NaN,
+      "y": 150,
+      "rx": 26,
+      "ry": 35,
+      "azimuth": 50,
+      "centerX": 140.7,
+      "rot": null
+     },
+     {
+      "type": "mouth",
+      "x": 70,
+      "y": 200,
+      "rx": null,
+      "ry": null,
+      "azimuth": 0,
+      "centerX": 151.9,
+      "rot": -7
+     }
+    ],
+    "eye": {
+     "style": "white",
+     "sclera": "#fffaf2",
+     "iris": "#5a2420",
+     "irisDx": -0.3
+    },
+    "mouth": {
+     "x": 70,
+     "y": 200,
+     "w": 70,
+     "rot": -7,
+     "kind": "teeth"
+    },
+    "ink": "#4b1c18",
+    "skin": "#fd905d"
+   },
+   "personality": {
+    "speed": 165,
+    "jumpV": 1080,
+    "bounce": 0.7,
+    "walkFreq": 1,
+    "breath": 2.4,
+    "tail": 1.3,
+    "idle": [
+     0.8,
+     2.2
+    ],
+    "w": {
+     "approach": 3,
+     "walk": 2,
+     "jumpPanel": 2.6,
+     "hang": 1.2,
+     "idle": 1.5,
+     "jumpFloor": 1,
+     "sleep": 0.4,
+     "peek": 0.1
+    },
+    "hold": {
+     "hang": [
+      4,
+      7
+     ],
+     "sleep": [
+      4,
+      7
+     ],
+     "peek": [
+      2,
+      3
+     ]
+    },
+    "cursor": "brave",
+    "dragExpr": "enfadada"
+   }
+  }
+ }
+}
