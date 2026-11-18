@@ -71,8 +71,17 @@ Desde ya conviene ir poniendo ids estables a los elementos clave.
 
 ## Paso a React Native
 
-El motor es DOM y CSS. Hay dos caminos:
-- **React Native Skia + Reanimated** (recomendado): el esqueleto son matrices y se dibuja igual. Las caras pasan de SVG a trazos de Skia y las partículas a Skia.
-- **WebView encima de la app**: más rápido de montar, pero peor integrado (toques, rendimiento, capas con la interfaz nativa).
+Hecho en CardIt (fase M1, 18-11-2026, `app/src/mascotas/`): **vistas + Reanimated + react-native-svg, sin Skia** (CardIt
+no usa Skia: con muchas piezas iba peor que las vistas).
+- Cada pieza es una vista con su imagen; su matriz se pasa a `translate`, `rotate`, `skewX` y `scale` alrededor de su
+  centro (`aTransformacion`), sin `matrix` ni `transformOrigin`.
+- Todo se calcula en el hilo de la interfaz (`useFrameCallback`) con funciones puras con `'worklet'`, que también se
+  prueban con Node: esqueleto, cerebro (qué hace), vida (lo que se mueven las piezas) y un «cuadro» por fotograma (una
+  lista de números que leen todas las vistas).
+- Delante y detrás: cada pieza está dos veces y se enciende la que toca; lo de detrás va en una caja con `overflow:
+  hidden` que recorta por el borde de la superficie. El orden de pintado solo cambia con la pose (sin `zIndex` animado).
+- La cara, con react-native-svg dentro de la vista de la cabeza (se mueve con ella); el parpadeo, una escala de vista.
+- Las superficies se apuntan desde las vistas de la app (`useSuperficie`) y se miden en la ventana.
+- Sin botes (regla de CardIt): saltos por curvas suaves, sin rebotar ni aplastarse.
 
-Se porta tal cual: matrices, poses, IA de movimiento, personalidades, habilidades (cambiando el DOM por el lienzo) y el formato del pack.
+Falta pasarlo de CardIt a `engine/` (y copiarlo a las apps como el kit), y las habilidades.

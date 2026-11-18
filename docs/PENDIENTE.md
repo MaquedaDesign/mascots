@@ -16,7 +16,8 @@ Al decidirlos, cambiarlos también en las historias (`STORIES` y `STORIES_EN`), 
 ## Próximos pasos
 
 1. Separar el motor del estudio en `engine/`: esqueleto, poses, caras, comportamiento, habilidades, señalar y tutoriales.
-2. Pasarlo a React Native con Skia y Reanimated (ver `ARQUITECTURA.md`).
+2. ~~Pasarlo a React Native~~: hecho en CardIt con vistas, Reanimated y react-native-svg, sin Skia (ver `ARQUITECTURA.md`);
+   falta traerlo aquí a `engine/`.
 3. Puente con el chat de CardIt (Edge Function con los límites de `CHAT-IA.md`).
 4. Probar con la IA real: si elige bien el tema, si edita en vez de duplicar y si el tono sale natural.
 5. Al final, con la interfaz asentada: mapa de la interfaz para que la IA señale cualquier cosa.
